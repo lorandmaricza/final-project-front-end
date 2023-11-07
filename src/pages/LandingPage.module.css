@@ -1,0 +1,15 @@
+.wrapperDiv {
+    width: 100%;
+    height: 100%;
+}
+
+.imgDivWrapper {
+    padding: 4em;
+}
+
+.imgDiv {
+    height: 60rem;
+    background-image: url("../assets/background/landing-frame.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+}

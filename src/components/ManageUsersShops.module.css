@@ -1,0 +1,65 @@
+.buttons {
+    margin-left: 10px;
+}
+
+.dropdownWrapper {
+    padding: 5px;
+    background: #ece5e5;
+    border-radius: 5px;
+    margin: 10px 0 10px 10px;
+}
+
+.dropdownClosedWrapper {
+    padding: 0;
+}
+
+.shop {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+}
+
+.nameAddressWrapperDiv {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.buttonsWrapperDiv {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 30%;
+}
+
+.shopWrapperDiv {
+    background: #f6f6f4;
+    padding: 1px 8px 1px 2px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.componentWrapperDiv {
+    width: 40%;
+    padding-left: 8px;
+}
+
+.addIcon {
+    height: 50px !important;
+    width: 50px !important;
+    margin-left: 6px !important;
+}
+
+.manageShopFormWrapperDiv {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: #f6f6f4;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.shopNameParagraph {
+    margin: 5px 0 0 10px;
+    font-size: 29px;
+}

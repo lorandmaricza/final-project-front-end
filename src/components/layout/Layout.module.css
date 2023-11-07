@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background: #C37F7F;
+}
+
+h1, p, span, label, div {
+    color: #77002e;
+}
+
+.wrapperDiv {
+    width: 100%;
+    height: 100%;
+    overflow-x:hidden;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background: #C37F7F;
+}

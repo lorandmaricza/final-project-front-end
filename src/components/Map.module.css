@@ -1,0 +1,39 @@
+.manageWrapperDiv {
+    display: flex;
+}
+
+.filterWrapperDiv {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "filter filter"
+        "filteredShops map";
+}
+
+.filterEmptyWrapperDiv {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "filter filter"
+        "map map";
+}
+
+.mapManageWrapperDiv {
+    position: fixed;
+    top: 10%;
+    left: 41%;
+    display: flex;
+    width: 55%;
+    margin: 68px 20px 0 30px;
+}
+
+.mapFilerWrapperDiv {
+    margin: 0 20px 0 20px;
+    grid-area: map;
+}
+
+.btn {
+    display: block;
+}

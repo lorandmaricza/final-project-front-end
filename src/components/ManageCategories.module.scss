@@ -1,0 +1,62 @@
+.wrapperDiv {
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 25px;
+    background: #eae9e9;
+}
+
+.inputWrapper {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 10px 0;
+    padding: 15px 10px 10px;
+    border-radius: 25px;
+    background: #e1e0e0;
+
+    input {
+        width: 60%;
+    }
+}
+
+.buttons {
+    margin-left:  20px;
+}
+
+.buttonsWrapperDiv {
+    display: inline;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h2, p {
+    margin-left:  10px;
+}
+
+.inputCategory {
+    width: 30%;
+    margin: 0 0 0 20px !important;
+    max-width: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+    &:first-child {
+        width: 30%;
+    }
+}
+
+.errorParagraph {
+    color: #f80000;
+}

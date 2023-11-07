@@ -1,0 +1,60 @@
+.wrapperDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.subWrapperDiv {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.editSubWrapperDiv {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.textInput {
+    width: auto;
+}
+
+.goBackIcon {
+    width: 50px !important;
+    height: 50px !important;
+    padding: 10px;
+}
+
+.inputEditWrapperDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    p, b {
+        width: 50%;
+    }
+}
+
+.inputWrapperDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header {
+    margin: 0 auto 20px auto;
+}
+
+.buttonWrapperDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+
+    button {
+        width: 50%;
+    }
+}

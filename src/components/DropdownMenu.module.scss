@@ -1,0 +1,29 @@
+.dropdownMenu {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  display: var(--menu-display);
+  background-color: #e6c0cf;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+  padding: 10px;
+  z-index: 1;
+}
+
+.dropdownMenu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.dropdownMenu a:hover {
+  background-color: #f2f2f2;
+}
+
+.userIcon {
+  height: 40px !important;
+  width: 40px !important;
+  margin-bottom: -15px;
+}
+
