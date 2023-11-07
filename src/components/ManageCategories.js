@@ -29,7 +29,7 @@ function ManageCategories() {
     }
 
     const handleUpdateCategory = async () => {
-        const response = await fetch('http://localhost:8888/final-project/backend/category/update-category.php', {
+        const response = await fetch('https://final-project-php-backend-06271590c384.herokuapp.com/category/update-category.php', {
                     method: 'POST',
                     body: JSON.stringify({ updateCategoryId, inputCategory }),
                 });
@@ -50,7 +50,7 @@ function ManageCategories() {
     }
 
     const handleDeleteCategory = async (category_id) => {
-        const response = await fetch('http://localhost:8888/final-project/backend/category/delete-category.php', {
+        const response = await fetch('https://final-project-php-backend-06271590c384.herokuapp.com/category/delete-category.php', {
             method: 'POST',
             body: JSON.stringify({ category_id }),
         });
@@ -64,7 +64,7 @@ function ManageCategories() {
     };
 
     const handleAddCategory = async () => {
-        const response = await fetch("http://localhost:8888/final-project/backend/category/add-category.php", {
+        const response = await fetch('https://final-project-php-backend-06271590c384.herokuapp.com/category/add-category.php', {
             method: "POST",
             body: JSON.stringify({ categoryName: inputCategory }),
         });

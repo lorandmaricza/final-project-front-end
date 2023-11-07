@@ -7,7 +7,7 @@ import AddCircleIcon from '@mui/icons-material/AddCircle';
 const saveShop = async (shop) => {
     try {
         await fetch(
-            'http://localhost:8888/final-project/backend/shop/save-shop.php',
+            'https://final-project-php-backend-06271590c384.herokuapp.com/shop/save-shop.php',
             {
                 method: 'POST',
                 mode: "cors",
@@ -34,7 +34,7 @@ export default function ManageUsersShops(props) {
         const fetchShops = async () => {
             try {
                 const response = await fetch(
-                    `http://localhost:8888/final-project/backend/shop/get-user-shops.php`,
+                    'https://final-project-php-backend-06271590c384.herokuapp.com/shop/get-user-shops.php',
                     {
                         method: 'POST',
                         mode: 'cors',
@@ -122,7 +122,7 @@ export default function ManageUsersShops(props) {
         if (file) {
             try {
                 await fetch(
-                    'http://localhost:8888/final-project/backend/' + file + '.php',
+                    'https://final-project-php-backend-06271590c384.herokuapp.com/' + file + '.php',
                     {
                         method: 'POST',
                         mode: "cors",
@@ -142,7 +142,7 @@ export default function ManageUsersShops(props) {
         const updated = 'address';
         try {
             await fetch(
-                'http://localhost:8888/final-project/backend/shop/update-shop-address.php',
+                'https://final-project-php-backend-06271590c384.herokuapp.com/shop/update-shop-address.php',
                 {
                     method: 'POST',
                     mode: "cors",

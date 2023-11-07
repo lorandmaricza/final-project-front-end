@@ -61,7 +61,7 @@ export default function ManageShopForm(props) {
          const fetchShops = async () => {
              try {
                 const response = await fetch(
-                    `http://localhost:8888/final-project/backend/shop/get-shop.php`,
+                    'https://final-project-php-backend-06271590c384.herokuapp.com/shop/get-shop.php',
                     {
                         method: "POST",
                         mode: "cors",
@@ -163,7 +163,7 @@ export default function ManageShopForm(props) {
 
     const handleDelete = async () => {
         try {
-            const response = await fetch('http://localhost:8888/final-project/backend/shop/delete-shop.php', {
+            const response = await fetch('https://final-project-php-backend-06271590c384.herokuapp.com/shop/delete-shop.php', {
                 method: 'POST',
                 body: JSON.stringify({ shopId }),
             });
