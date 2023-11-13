@@ -8,7 +8,7 @@ export default function ShopCategories({ shopId }) {
         const fetchCategories = async () => {
             try {
                 const response = await fetch(
-                    'https://final-project-php-backend-06271590c384.herokuapp.com/category/get-users-shop-categories.php',
+                    'http://localhost:8888/final-project-back-end/public/category/get-users-shop-categories.php',
                     {
                         method: 'POST',
                         mode: 'cors',

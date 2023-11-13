@@ -1,5 +1,5 @@
 export const checkSession = async () => {
-    const response = await fetch('https://final-project-php-backend-06271590c384.herokuapp.com/check-session.php', {
+    const response = await fetch('http://localhost:8888/final-project-back-end/public/check-session.php', {
         credentials: 'include'
     });
 
@@ -11,7 +11,7 @@ export const checkSession = async () => {
 }
 
 export const fetchCategories = async (setCategories) => {
-    const response = await fetch('https://final-project-php-backend-06271590c384.herokuapp.com/category/get-categories.php', {
+    const response = await fetch('http://localhost:8888/final-project-back-end/public/category/get-categories.php', {
         method: "POST",
         mode: "cors",
         credentials: 'include'

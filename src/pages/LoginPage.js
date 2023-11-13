@@ -31,7 +31,7 @@ export default function LoginPage(props) {
         e.preventDefault();
         setIsLoading(true);
         const response = await fetch(
-            'https://final-project-php-backend-06271590c384.herokuapp.com/login.php',
+            'http://localhost:8888/final-project-back-end/public/login.php',
             {
                 method: "POST",
                 mode: "cors",

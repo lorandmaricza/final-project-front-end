@@ -59,7 +59,7 @@ export default function UserInfoPage() {
 
         try {
             const response = await fetch(
-                'https://final-project-php-backend-06271590c384.herokuapp.com/update-user.php',
+                'http://localhost:8888/final-project-back-end/public/update-user.php',
                 {
                     method: "POST",
                     mode: 'cors',

@@ -10,7 +10,7 @@ export default function ShopFilter({ currentLocation, setFilteredShops, onDistan
     useEffect(() => {
         const fetchCategories = async () => {
             const response = await fetch(
-                'https://final-project-php-backend-06271590c384.herokuapp.com/category/get-categories.php'
+                'http://localhost:8888/final-project-back-end/public/category/get-categories.php'
             );
             const data = await response.json();
             const options = data.categories.map(([value, label]) => ({
@@ -27,7 +27,7 @@ export default function ShopFilter({ currentLocation, setFilteredShops, onDistan
             let data = {};
             data.shops = undefined;
             const response = await fetch(
-                'https://final-project-php-backend-06271590c384.herokuapp.com/shop/get-filtered-shops.php',
+                'http://localhost:8888/final-project-back-end/public/shop/get-filtered-shops.php',
                 {
                     method: 'POST',
                     mode: 'cors',
