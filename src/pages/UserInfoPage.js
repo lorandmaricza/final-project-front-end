@@ -59,7 +59,7 @@ export default function UserInfoPage() {
 
         try {
             const response = await fetch(
-                'http://localhost:8888/final-project-back-end/public/update-user.php',
+                'http://localhost:8888/final-project-back-end/public/user/update-user.php',
                 {
                     method: "POST",
                     mode: 'cors',

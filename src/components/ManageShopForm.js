@@ -22,8 +22,7 @@ export default function ManageShopForm(props) {
     const [isUpdateCategoriesButtonDisabled, setIsUpdateCategoriesButtonDisabled] = useState(true);
     const [isCancelButtonClicked, setIsCancelButtonClicked] = useState(false);
     const [,setShop] = useState([]);
-    const API_KEY = process.env.REACT_APP_API_KEY;
-    // const API_KEY = 'AIzaSyClQ9fryoXjgM6tbPJutsTEgQ4oz0qCEqs';
+    const API_KEY = 'AIzaSyClQ9fryoXjgM6tbPJutsTEgQ4oz0qCEqs';
     const isAdd = props.isAdd;
     const shopId = props.shopId ?? null;
 
@@ -236,6 +235,7 @@ export default function ManageShopForm(props) {
                     onChange={handleAddressChange}
                     placeholder="Search for a location"
                     size="50"
+                    autoComplete={'off'}
                 />
                 {
                     !isAdd && ( <button onClick={handleUpdateAddress} disabled={isUpdateAddressButtonDisabled}>Update address</button> )
@@ -267,6 +267,7 @@ export default function ManageShopForm(props) {
                     onChange={handleShopNameChange}
                     placeholder="Name of the shop"
                     size="50"
+                    autoComplete={'off'}
                 />
                 {
                     !isAdd && ( <button onClick={handleUpdateShopName} className={classes.updateNameButton} disabled={isUpdateShopNameButtonDisabled}>Update name</button> )

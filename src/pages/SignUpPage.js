@@ -34,7 +34,7 @@ function SignUpPage() {
     const handleSubmit = async e => {
         e.preventDefault();
         setIsLoading(true);
-        const response = await fetch('http://localhost:8888/final-project-back-end/public/signup.php', {
+        const response = await fetch('http://localhost:8888/final-project-back-end/public/user/signup.php', {
             mode: "cors",
             method: "POST",
             headers: { "Content-Type": "application/json" },

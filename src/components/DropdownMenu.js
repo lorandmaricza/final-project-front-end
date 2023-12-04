@@ -12,7 +12,7 @@ export default function DropdownMenu(props) {
     }
 
     const handleLogout = async () => {
-        const response = await fetch('http://localhost:8888/final-project-back-end/public/logout.php', {
+        const response = await fetch('http://localhost:8888/final-project-back-end/public/user/logout.php', {
             credentials: 'include'
         });
 

@@ -31,7 +31,7 @@ export default function LoginPage(props) {
         e.preventDefault();
         setIsLoading(true);
         const response = await fetch(
-            'http://localhost:8888/final-project-back-end/public/login.php',
+            'http://localhost:8888/final-project-back-end/public/user/login.php',
             {
                 method: "POST",
                 mode: "cors",
