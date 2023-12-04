@@ -235,6 +235,7 @@ export default function ManageShopForm(props) {
                     onChange={handleAddressChange}
                     placeholder="Search for a location"
                     size="50"
+                    autoComplete={'off'}
                 />
                 {
                     !isAdd && ( <button onClick={handleUpdateAddress} disabled={isUpdateAddressButtonDisabled}>Update address</button> )
@@ -266,6 +267,7 @@ export default function ManageShopForm(props) {
                     onChange={handleShopNameChange}
                     placeholder="Name of the shop"
                     size="50"
+                    autoComplete={'off'}
                 />
                 {
                     !isAdd && ( <button onClick={handleUpdateShopName} className={classes.updateNameButton} disabled={isUpdateShopNameButtonDisabled}>Update name</button> )

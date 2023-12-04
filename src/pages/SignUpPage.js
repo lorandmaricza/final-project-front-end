@@ -34,7 +34,7 @@ function SignUpPage() {
     const handleSubmit = async e => {
         e.preventDefault();
         setIsLoading(true);
-        const response = await fetch('https://final-project-php-backend-06271590c384.herokuapp.com/signup.php', {
+        const response = await fetch('https://final-project-php-backend-06271590c384.herokuapp.com/user/signup.php', {
             mode: "cors",
             method: "POST",
             headers: { "Content-Type": "application/json" },
