@@ -2,6 +2,16 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+html, body {
+    margin: 0;
+    height: 100vh;
+    background: #C37F7F;
+}
+
+h1, p, span, label, div {
+    color: #77002e;
+}
+
 form {
     display: flex;
     flex-direction: column;
