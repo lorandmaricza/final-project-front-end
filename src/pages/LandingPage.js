@@ -19,9 +19,7 @@ function LandingPage () {
 
     return (
         <div className={classes.wrapperDiv}>
-            <div className={classes.imgDivWrapper}>
-                <div className={classes.imgDiv}></div>
-            </div>
+            <div className={classes.imgDiv}></div>
         </div>
     );
 }

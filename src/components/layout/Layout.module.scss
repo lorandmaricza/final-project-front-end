@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    main {
+        flex: 1;
+        overflow-y: auto;
+        background: #C37F7F;
+    }
+
+    footer {
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #731b3d;
+        color: #bebcbc;
+
+        p, a {
+            color: #bebcbc;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+    }
+}
+
